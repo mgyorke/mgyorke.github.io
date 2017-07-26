@@ -1,0 +1,270 @@
+.parent_doc {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: yellowgreen; */
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 11px;
+    line-height: normal;
+    font-family: system-ui;
+    /* font-family: "Helvetica";  */
+    font-size: 13px;
+
+}
+
+#header_spacer {
+    height: 40px;
+}
+
+#header {
+    font-size: 20px;
+}
+
+.parent_body {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    */
+
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 600px;
+    flex-wrap: wrap;
+    
+}
+
+
+/* CONTROLS STYLING */
+.parent_controls {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: red; */
+
+    width: 600px;
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+ /* .parent_column_1, .parent_column_2, .parent_column_3 {
+     border-style: solid;
+    border-width: 1px;
+    border-color: black;  */
+} 
+
+.parent_column_2 {
+    max-width: 150px;
+}
+
+.parent_column_3 {
+    max-width: 100px;
+}
+
+.parent_client, .parent_bucati, .parent_alte, .parent_lungime, 
+.parent_latime, .parent_inaltime, .parent_bic, .parent_reset_print, 
+.parent_calculate 
+{
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: black;   */
+
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 5px;
+}
+
+#tag_lungime, #tag_latime, #tag_inaltime, #tag_client, #tag_bucati, #tag_alte {
+    margin-right: 2px;
+}
+
+.parent_reset_print {
+    justify-content: left;
+}
+
+.parent_calculate {
+    justify-content: space-around;
+}
+
+
+/* IMAGE STYLING */
+.parent_image {
+     /* border-style: solid;
+    border-width: 3px;
+    border-color: yellowgreen;  */
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image_elements {   
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.labels_top {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: black; */
+
+    display: flex;
+    
+    
+}
+
+.values_top {
+    margin-left: 2px;
+}
+
+#image_box {
+    width: 451px;
+    height: 175px; 
+
+    background-image: url(media/box/box1.png);
+    background-size: 100% 100%;
+
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: black; */
+}
+
+#image_middle_row {
+
+      
+
+     /* border-style: solid;
+    border-width: 1px;
+    border-color: yellowgreen;  */
+
+    display: flex;
+
+}
+
+#image_left_label_wrapper, #image_right_label_wrapper {
+    display: flex;
+
+    
+}
+
+#image_left_labels_wrap, #image_right_labels_wrap {
+    height: 120px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-self: center;
+    
+}
+
+
+
+#parent_image_labels_left, #parent_image_labels_right  {
+    
+    width: 30px;
+    height: 175px;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.image_left_labels, .image_right_labels {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: black;  */
+
+     width: 30px; 
+     /* height: 20px;  */
+}
+
+#image_td_item {
+    height: 175px;
+
+    display: flex;
+}
+
+#image_td_wrapper {
+    align-self: center;
+}
+
+#image_td_content {
+    display: flex;
+
+}
+#image_td_label {
+    margin-right: 2px;
+}
+
+#image_bottom_row {
+    display: flex;
+}
+
+#image_bottom_wrapper {
+    align-self: center;
+}
+
+#image_bottom_content {
+    display: flex;
+    justify-content: space-between;
+
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: black; */
+}
+#image_bottom_label {
+    margin-right: 2px;
+}
+
+
+/* COSTS STYLING */
+
+.parent_costs {
+    display: flex;
+    width: 600px;
+
+    justify-content: space-around;
+
+}
+
+#costs_spacer {
+    height: 15px;   
+}
+
+.costs_content_row, .costs_items_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ .costs_content_row {
+    width: 550px;
+    margin: 5px;
+
+} 
+.costs_label_item {
+    margin-right: 2px;
+  
+}
+
+.input_1 {
+    width: 50px;
+}
+
+.input_2 {
+    width: 50px;
+}
