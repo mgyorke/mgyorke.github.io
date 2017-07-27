@@ -55,7 +55,7 @@ function calculate() {
 
     label_left1.innerText = parseInt(input_latime.value) / 2 + parseInt(input_bic.value);
     label_left2.innerText = parseInt(input_inaltime.value) + parseInt(input_bic.value);
-    label_left3.innerText = parseInt(input_latime.value) / 2;
+    label_left3.innerText = parseInt(input_latime.value) / 2 + parseInt(input_bic.value);
 
 
     image_td_value.innerText = parseInt(label_left1.innerText) + parseInt(label_left2.innerText) +
