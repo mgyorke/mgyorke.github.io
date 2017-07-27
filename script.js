@@ -49,7 +49,7 @@ function calculate() {
     // alert('it works');
 
     label_lungime_bic.innerText = parseInt(input_lungime.value) + parseInt(input_bic.value);
-    label_baza.innerText = parseInt(input_latime.value)
+    label_baza.innerText = parseInt(input_latime.value) + parseInt(input_bic.value);
     label_baza_bic.innerText =  parseInt(input_latime.value) + parseInt(input_bic.value);
     label_lungime_bic2.innerText = label_lungime_bic.innerText;
 
